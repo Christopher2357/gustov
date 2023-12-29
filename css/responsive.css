@@ -1,0 +1,30 @@
+/* Estilos para dispositivos móviles con ancho de pantalla de hasta 767px */
+
+#fotter-logo {
+    margin: 0px 0px -35px 0px;
+    background: red;
+}
+@media (max-width: 767px) {
+    #fotter-logo {
+        margin: 0px 0px 0px 0px;
+    }
+}
+/* Estilos para tablets con ancho de pantalla de 768px a 1023px */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .clase-elemento {
+        font-size: 16px;
+    }
+}
+/* Estilos para pantallas móviles */
+
+@media only screen and (max-width: 600px) {
+    /* .modal-content {
+        width: 90%;
+        margin: 10% auto;
+        background: red;
+    }
+    #modal_editarRegister {
+        background: red;
+    }*/
+}
